@@ -1,10 +1,23 @@
 {
-    "atualizado":  "2026-11-10T13:25:01.4512363Z",
+    "atualizado":  "2026-11-10T15:05:01.2957831Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4116236516286464",
+                         "titulo":  "Teste",
+                         "texto":  "PÓLO DE SEVER DO VOUGA",
+                         "autor":  "",
+                         "data":  "2026-11-10T13:36:55Z",
+                         "fotos":  [
+                                       "fotos/4116236516286464_3006977269760.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4114930399043584",
                          "titulo":  "Webinário - Integridade e Anticorrupção",
