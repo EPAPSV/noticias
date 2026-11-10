@@ -1,0 +1,81 @@
+{
+    "atualizado":  "2026-11-10T13:05:01.0319628Z",
+    "config":  {
+                   "segundos":  14,
+                   "recarregarMinutos":  5
+               },
+    "noticias":  [
+                     {
+                         "id":  "",
+                         "titulo":  "TESTE 2 - Workshop (aprovada)",
+                         "texto":  "Texto de teste: workshop realizado no pólo. Publicação de exemplo já aprovada, com duas fotos.",
+                         "autor":  "Teste",
+                         "data":  "2026-11-09T16:05:57Z",
+                         "fotos":  [
+
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4114930399043584",
+                         "titulo":  "Webinário - Integridade e Anticorrupção",
+                         "texto":  "No dia 9 de novembro, as equipas 4EQ, 4ER e 4EM participaram no webinário nacional \"Dia da Integridade e Anticorrupção\", uma iniciativa promovida pelo Mecanismo Nacional Anticorrupção (MENAC), integrada na programação do Mês Anticorrupção 2026.\nRealizada em formato online, entre as 10h00 e as 12h00, a sessão reuniu escolas de todo o país com o objetivo de sensibilizar os jovens para a importância da integridade, da transparência, da ética e da prevenção da corrupção, temas fundamentais para a construção de uma sociedade mais justa e responsável.",
+                         "autor":  "",
+                         "data":  "2026-11-09T12:00:00Z",
+                         "fotos":  [
+                                       "fotos/4114930399043584_3005803724800.jpg",
+                                       "fotos/4114930399043584_3005803732992.jpg",
+                                       "fotos/4114930399043584_3005803741184.jpg",
+                                       "fotos/4114930399043584_3005803749376.jpg",
+                                       "fotos/4114930399043584_3005803757568.jpg",
+                                       "fotos/4114930399043584_3005803765760.jpg",
+                                       "fotos/4114930399043584_3005803773952.jpg",
+                                       "fotos/4114930399043584_3005803782144.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4109551280349184",
+                         "titulo":  "Juniores do pSV da EPA colaboram na Exposição Fotográfica de Paradela",
+                         "texto":  "No âmbito da parceria entre a Escola Profissional de Aveiro, Pólo de Sever do Vouga, e a Junta de Freguesia de Paradela, várias juniores colaboraram no acolhimento e acompanhamento dos visitantes da Exposição Fotográfica promovida pela Junta de Freguesia.\nA participação permitiu às alunas desenvolver competências de comunicação, responsabilidade e contacto com a comunidade, reforçando os laços de cooperação entre a escola e o território.\nO pSV EPA agradece à Junta de Freguesia de Paradela a confiança e a oportunidade proporcionada às suas alunas.",
+                         "autor":  "",
+                         "data":  "2026-11-05T12:00:00Z",
+                         "fotos":  [
+
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4109511585947648",
+                         "titulo":  "Uma ação exemplar que reforça os valores da cidadania, da participação cívica e da responsabilidade ambiental junto da comunidade escolar.",
+                         "texto":  "",
+                         "autor":  "",
+                         "data":  "2026-11-05T12:00:00Z",
+                         "fotos":  [
+
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4109510359367680",
+                         "titulo":  "Top,",
+                         "texto":  "",
+                         "autor":  "",
+                         "data":  "2026-11-05T12:00:00Z",
+                         "fotos":  [
+
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     }
+                 ]
+}
