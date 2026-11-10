@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notícias PSV</title>
+<style>
+  :root { --fundo:#0b0f14; --texto:#fff; --destaque:#e30613; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html,body { width:100%; height:100%; overflow:hidden; background:var(--fundo); color:var(--texto);
+    font-family:"Segoe UI",system-ui,Arial,sans-serif; cursor:none; }
+  #palco { position:fixed; inset:0; }
+  .slide { position:absolute; inset:0; opacity:0; transition:opacity 1s ease; }
+  .slide.ativo { opacity:1; }
+  .mosaico { position:absolute; inset:0; display:grid; gap:6px; background:#000; }
+  .mosaico .foto { position:relative; overflow:hidden; background:#1b222b; }
+  .mosaico img { width:100%; height:100%; object-fit:cover; display:block; }
+  .slide.ativo .mosaico img { animation:zoom 18s linear forwards; }
+  @keyframes zoom { from{transform:scale(1)} to{transform:scale(1.06)} }
+  .mais { position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    background:rgba(0,0,0,.55); font-size:6vh; font-weight:700; }
+
+  /* grelhas por nº de fotos */
+  .n1 { grid-template-columns:1fr; grid-template-rows:1fr; }
+  .n2 { grid-template-columns:1fr 1fr; grid-template-rows:1fr; }
+  .n3 { grid-template-columns:2fr 1fr; grid-template-rows:1fr 1fr; }
+  .n3 .foto:first-child { grid-row:1 / span 2; }
+  .n4 { grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; }
+  .n5 { grid-template-columns:repeat(6,1fr); grid-template-rows:1fr 1fr; }
+  .n5 .foto:nth-child(-n+2) { grid-column:span 3; }
+  .n5 .foto:nth-child(n+3) { grid-column:span 2; }
+  .n6 { grid-template-columns:repeat(3,1fr); grid-template-rows:1fr 1fr; }
+
+  .rodape { position:absolute; left:0; right:0; bottom:0; padding:9vh 4vw 5vh;
+    background:linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.72) 55%, rgba(0,0,0,0) 100%); }
+  .rodape h1 { font-size:4.6vh; line-height:1.15; font-weight:700; margin-bottom:1.2vh;
+    border-left:.8vh solid var(--destaque); padding-left:1.4vw; text-shadow:0 2px 8px rgba(0,0,0,.6); }
+  .rodape p { font-size:3.2vh; line-height:1.35; display:-webkit-box; -webkit-line-clamp:4;
+    -webkit-box-orient:vertical; overflow:hidden; white-space:pre-line; text-shadow:0 2px 8px rgba(0,0,0,.6); }
+  .rodape small { display:block; margin-top:1.4vh; font-size:2.2vh; opacity:.75; }
+
+  /* só texto */
+  .soTexto { background:radial-gradient(ellipse at top left,#1c2a3a,#0b0f14); }
+  .soTexto .rodape { top:0; background:none; display:flex; flex-direction:column; justify-content:center; padding:8vh 8vw; }
+  .soTexto .rodape h1 { font-size:7vh; margin-bottom:3vh; }
+  .soTexto .rodape p { font-size:4.4vh; -webkit-line-clamp:9; }
+
+  #progresso { position:fixed; left:0; bottom:0; height:.7vh; width:0; background:var(--destaque); z-index:10; }
+  #vazio { position:fixed; inset:0; display:none; align-items:center; justify-content:center; font-size:5vh; opacity:.8; }
+</style>
+</head>
+<body>
+<div id="palco"></div>
+<div id="progresso"></div>
+<div id="vazio">Escola Profissional de Aveiro – Pólo de Sever do Vouga</div>
+<script>
+(function(){
+  var DEMO = /[?&]demo=1/.test(location.search);
+  var URL_JSON = DEMO ? 'exemplo/noticias.json' : 'noticias.json';
+  var BASE = DEMO ? 'exemplo/' : '';
+  var cfg = { segundos:12, recarregarMinutos:5 };
+  var noticias = [];
+  var indice = -1, atual = null, timer = null;
+  var palco = document.getElementById('palco');
+  var barra = document.getElementById('progresso');
+  var vazio = document.getElementById('vazio');
+
+  function esc(s){ var d=document.createElement('div'); d.textContent=s==null?'':String(s); return d.innerHTML; }
+
+  function dataPT(iso){
+    try { return new Date(iso).toLocaleDateString('pt-PT',{day:'numeric',month:'long',year:'numeric'}); }
+    catch(e){ return ''; }
+  }
+
+  function duracao(n){
+    var base = cfg.segundos || 12;
+    var len = (n.texto||'').length;
+    var extra = Math.min(4, Math.floor(len/150));
+    return Math.min(base + extra, 16);
+  }
+
+  function construir(n){
+    var el = document.createElement('div');
+    el.className = 'slide';
+    var fotos = (n.fotos||[]);
+    var html = '';
+    if (fotos.length){
+      var k = Math.min(fotos.length, 6);
+      html += '<div class="mosaico n'+k+'">';
+      for (var i=0;i<k;i++){
+        html += '<div class="foto"><img src="'+esc(BASE+fotos[i])+'" alt="">';
+        if (i===5 && fotos.length>6) html += '<div class="mais">+'+(fotos.length-5)+'</div>';
+        html += '</div>';
+      }
+      html += '</div>';
+    } else {
+      el.classList.add('soTexto');
+    }
+    var linhas = (n.texto||'').trim().split(/\n+/);
+    var titulo = n.titulo || linhas.shift() || '';
+    if (!n.titulo && linhas.length===0) linhas = [];
+    var corpo = n.titulo ? (n.texto||'') : linhas.join('\n');
+    var meta = [n.autor, n.data?dataPT(n.data):''].filter(Boolean).join(' · ');
+    html += '<div class="rodape"><h1>'+esc(titulo)+'</h1>'+(corpo?'<p>'+esc(corpo)+'</p>':'')+(meta?'<small>'+esc(meta)+'</small>':'')+'</div>';
+    el.innerHTML = html;
+    // ignorar imagens que falham
+    Array.prototype.forEach.call(el.querySelectorAll('.foto img'), function(img){
+      img.onerror = function(){ var f=img.parentNode; if(f&&f.parentNode) f.parentNode.removeChild(f); };
+    });
+    return el;
+  }
+
+  function mostrar(){
+    clearTimeout(timer);
+    if (!noticias.length){ vazio.style.display='flex'; barra.style.width='0'; timer=setTimeout(mostrar,30000); return; }
+    vazio.style.display='none';
+    indice = (indice+1) % noticias.length;
+    var n = noticias[indice];
+    var el = construir(n);
+    palco.appendChild(el);
+    void el.offsetWidth;
+    el.classList.add('ativo');
+    if (atual){ var velho=atual; velho.classList.remove('ativo'); setTimeout(function(){ if(velho.parentNode) velho.parentNode.removeChild(velho); },1200); }
+    atual = el;
+    var d = duracao(n);
+    barra.style.transition='none'; barra.style.width='0'; void barra.offsetWidth;
+    barra.style.transition='width '+d+'s linear'; barra.style.width='100%';
+    timer = setTimeout(mostrar, d*1000);
+  }
+
+  function carregar(primeira){
+    return fetch(URL_JSON+'?t='+Date.now(), {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(j){
+        if (!j || !Array.isArray(j.noticias)) throw new Error('formato');
+        if (j.config) { cfg.segundos = j.config.segundos || cfg.segundos; cfg.recarregarMinutos = j.config.recarregarMinutos || cfg.recarregarMinutos; }
+        var agora = Date.now();
+        noticias = j.noticias.filter(function(n){
+          if (n.inicio && new Date(n.inicio).getTime() > agora) return false;
+          if (n.fim && new Date(n.fim).getTime() < agora) return false;
+          return true;
+        }).slice(0,10);
+        if (indice >= noticias.length) indice = -1;
+      })
+      .catch(function(e){ /* mantém os dados anteriores */ console.warn('Falha a carregar', e); })
+      .then(function(){ if (primeira) mostrar(); });
+  }
+
+  carregar(true);
+  setInterval(function(){ carregar(false); }, (cfg.recarregarMinutos||5)*60000);
+  // recarregamento completo periódico (evita fugas de memória)
+  setTimeout(function(){ location.reload(); }, 6*3600*1000);
+})();
+</script>
+</body>
+</html>

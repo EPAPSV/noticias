@@ -1,0 +1,101 @@
+{
+ "atualizado": "2026-11-10T09:00:00Z",
+ "config": {
+  "segundos": 12,
+  "recarregarMinutos": 5
+ },
+ "noticias": [
+  {
+   "id": "ex-a",
+   "titulo": "Visita de estudo ao museu (exemplo)",
+   "texto": "Os alunos do 1.º ano visitaram o museu. Texto de exemplo para testar o rodapé.",
+   "autor": "Autor Exemplo",
+   "data": "2026-10-10",
+   "fotos": [
+    "fotos/a_1.jpg"
+   ],
+   "fixa": false
+  },
+  {
+   "id": "ex-b",
+   "titulo": "Workshop de cozinha (exemplo)",
+   "texto": "Dois momentos do workshop realizado esta semana com a participação de várias turmas.",
+   "autor": "Autor Exemplo",
+   "data": "2026-10-11",
+   "fotos": [
+    "fotos/b_1.jpg",
+    "fotos/b_2.jpg"
+   ],
+   "fixa": false
+  },
+  {
+   "id": "ex-c",
+   "titulo": "Torneio desportivo (exemplo)",
+   "texto": "Resultados e fotografias do torneio interno. Texto fictício para demonstração do layout com três fotos.",
+   "autor": "Autor Exemplo",
+   "data": "2026-10-12",
+   "fotos": [
+    "fotos/c_1.jpg",
+    "fotos/c_2.jpg",
+    "fotos/c_3.jpg"
+   ],
+   "fixa": false
+  },
+  {
+   "id": "ex-d",
+   "titulo": "Dia aberto (exemplo)",
+   "texto": "Quatro fotografias do dia aberto da escola. Este texto é maior para testar o limite de linhas no rodapé: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+   "autor": "Autor Exemplo",
+   "data": "2026-10-13",
+   "fotos": [
+    "fotos/d_1.jpg",
+    "fotos/d_2.jpg",
+    "fotos/d_3.jpg",
+    "fotos/d_4.jpg"
+   ],
+   "fixa": false
+  },
+  {
+   "id": "ex-e",
+   "titulo": "Feira de profissões (exemplo)",
+   "texto": "Cinco fotografias da feira de profissões.",
+   "autor": "Autor Exemplo",
+   "data": "2026-10-14",
+   "fotos": [
+    "fotos/e_1.jpg",
+    "fotos/e_2.jpg",
+    "fotos/e_3.jpg",
+    "fotos/e_4.jpg",
+    "fotos/e_5.jpg"
+   ],
+   "fixa": false
+  },
+  {
+   "id": "ex-f",
+   "titulo": "Concurso de projetos (exemplo)",
+   "texto": "Mais de seis fotografias: a sexta mostra o contador +N.",
+   "autor": "Autor Exemplo",
+   "data": "2026-10-15",
+   "fotos": [
+    "fotos/f_1.jpg",
+    "fotos/f_2.jpg",
+    "fotos/f_3.jpg",
+    "fotos/f_4.jpg",
+    "fotos/f_5.jpg",
+    "fotos/f_6.jpg",
+    "fotos/f_7.jpg",
+    "fotos/f_8.jpg"
+   ],
+   "fixa": false
+  },
+  {
+   "id": "ex-g",
+   "titulo": "Aviso importante (exemplo)",
+   "texto": "Notícia só com texto, sem fotografias: reunião geral na próxima sexta-feira às 15h.",
+   "autor": "Autor Exemplo",
+   "data": "2026-10-16",
+   "fotos": [],
+   "fixa": false
+  }
+ ]
+}
