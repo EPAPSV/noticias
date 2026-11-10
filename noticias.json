@@ -1,5 +1,5 @@
 {
-    "atualizado":  "2026-11-10T15:05:01.2957831Z",
+    "atualizado":  "2026-11-10T15:10:00.3122907Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
@@ -57,19 +57,6 @@
                                        "fotos/4114893764878336_3005753270272.jpg",
                                        "fotos/4114893764878336_3005753278464.jpg",
                                        "fotos/4114893764878336_3005753294848.jpg"
-                                   ],
-                         "fixa":  false,
-                         "inicio":  "",
-                         "fim":  ""
-                     },
-                     {
-                         "id":  "4110952073134080",
-                         "titulo":  "Já estamos criando a nossa estatística nos atendimentos . Nós sabemos que iremos melhorar ainda mais com a ajuda de todos.",
-                         "texto":  "",
-                         "autor":  "",
-                         "data":  "2026-11-06T12:00:00Z",
-                         "fotos":  [
-
                                    ],
                          "fixa":  false,
                          "inicio":  "",
