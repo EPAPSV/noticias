@@ -1,23 +1,10 @@
 {
-    "atualizado":  "2026-11-10T13:05:01.0319628Z",
+    "atualizado":  "2026-11-10T13:25:01.4512363Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
-                     {
-                         "id":  "",
-                         "titulo":  "TESTE 2 - Workshop (aprovada)",
-                         "texto":  "Texto de teste: workshop realizado no pólo. Publicação de exemplo já aprovada, com duas fotos.",
-                         "autor":  "Teste",
-                         "data":  "2026-11-09T16:05:57Z",
-                         "fotos":  [
-
-                                   ],
-                         "fixa":  false,
-                         "inicio":  "",
-                         "fim":  ""
-                     },
                      {
                          "id":  "4114930399043584",
                          "titulo":  "Webinário - Integridade e Anticorrupção",
@@ -39,11 +26,35 @@
                          "fim":  ""
                      },
                      {
-                         "id":  "4109551280349184",
-                         "titulo":  "Juniores do pSV da EPA colaboram na Exposição Fotográfica de Paradela",
-                         "texto":  "No âmbito da parceria entre a Escola Profissional de Aveiro, Pólo de Sever do Vouga, e a Junta de Freguesia de Paradela, várias juniores colaboraram no acolhimento e acompanhamento dos visitantes da Exposição Fotográfica promovida pela Junta de Freguesia.\nA participação permitiu às alunas desenvolver competências de comunicação, responsabilidade e contacto com a comunidade, reforçando os laços de cooperação entre a escola e o território.\nO pSV EPA agradece à Junta de Freguesia de Paradela a confiança e a oportunidade proporcionada às suas alunas.",
+                         "id":  "4114893764878336",
+                         "titulo":  "Juniores do pSV participam em Atividade de Sensibilização da PREVEMERG",
+                         "texto":  "Os Juniores do Pólo participaram recentemente numa atividade promovida pela PREVEMERG, dedicada à sensibilização para a prevenção, segurança e resposta em emergências.\nDurante a atividade, tiveram a oportunidade de contactar com diversos conteúdos e demonstrações práticas sobre procedimentos de segurança, primeiros socorros e atuação em cenários de emergência, adquirindo conhecimentos importantes para o seu desenvolvimento pessoal e cívico.\nEsta experiência revelou-se bastante enriquecedora, permitindo reforçar competências essenciais para o dia a dia e promover valores cívicos.\nO Polo congratula todos os juniores pelo comportamento exemplar, interesse demonstrado e participação ativa ao longo da atividade, agradecendo igualmente à PREVEMERG pela oportunidade proporcionada e pelo seu contributo para a formação de jovens mais conscientes, preparados e interventivos na comunidade.\n(11) Facebook\u003chttps://www.facebook.com/profile.php?id=61575326544448\u003e",
                          "autor":  "",
-                         "data":  "2026-11-05T12:00:00Z",
+                         "data":  "2026-11-09T12:00:00Z",
+                         "fotos":  [
+                                       "fotos/4114893764878336_3005753180160.jpg",
+                                       "fotos/4114893764878336_3005753188352.jpg",
+                                       "fotos/4114893764878336_3005753196544.jpg",
+                                       "fotos/4114893764878336_3005753204736.jpg",
+                                       "fotos/4114893764878336_3005753212928.jpg",
+                                       "fotos/4114893764878336_3005753221120.jpg",
+                                       "fotos/4114893764878336_3005753237504.jpg",
+                                       "fotos/4114893764878336_3005753245696.jpg",
+                                       "fotos/4114893764878336_3005753253888.jpg",
+                                       "fotos/4114893764878336_3005753270272.jpg",
+                                       "fotos/4114893764878336_3005753278464.jpg",
+                                       "fotos/4114893764878336_3005753294848.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4110952073134080",
+                         "titulo":  "Já estamos criando a nossa estatística nos atendimentos . Nós sabemos que iremos melhorar ainda mais com a ajuda de todos.",
+                         "texto":  "",
+                         "autor":  "",
+                         "data":  "2026-11-06T12:00:00Z",
                          "fotos":  [
 
                                    ],
@@ -52,26 +63,50 @@
                          "fim":  ""
                      },
                      {
-                         "id":  "4109511585947648",
-                         "titulo":  "Uma ação exemplar que reforça os valores da cidadania, da participação cívica e da responsabilidade ambiental junto da comunidade escolar.",
-                         "texto":  "",
+                         "id":  "4110944311672832",
+                         "titulo":  "FERRAMENTEIROS EM AÇÃO",
+                         "texto":  "Na Ferramentaria todos os dias são utilizados os conhecimentos para a melhora contínua. Os nossos FERRAMENTEIROS auxiliam e praticam todos os dias as suas novas competências .\nMelhoria contínua com o auxílio de todos\n#praticar #ferramentaria",
                          "autor":  "",
-                         "data":  "2026-11-05T12:00:00Z",
+                         "data":  "2026-11-06T12:00:00Z",
                          "fotos":  [
-
+                                       "fotos/4110944311672832_3004194439168.jpg"
                                    ],
                          "fixa":  false,
                          "inicio":  "",
                          "fim":  ""
                      },
                      {
-                         "id":  "4109510359367680",
-                         "titulo":  "Top,",
-                         "texto":  "",
+                         "id":  "4110935356907520",
+                         "titulo":  "SEGURANÇA ELÉTRICA",
+                         "texto":  "A segurança em eletricidade inicia com o ensinar a responsabilidade que todos possuem .\nÉ responsabilidade civil e criminal quando executamos uma instalação elétrica .\nA Equipa 4FC com o compromisso assumido.\nResponsabilidade e profissionalismo são aprendizados excepcionais\n#praticar #4fc",
                          "autor":  "",
-                         "data":  "2026-11-05T12:00:00Z",
+                         "data":  "2026-11-06T12:00:00Z",
                          "fotos":  [
-
+                                       "fotos/4110935356907520_3004183011328.jpg",
+                                       "fotos/4110935356907520_3004183076864.jpg",
+                                       "fotos/4110935356907520_3004183158784.jpg",
+                                       "fotos/4110935356907520_3004183216128.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4110924067618816",
+                         "titulo":  "Criar é acreditar",
+                         "texto":  "Os juniores da Equipa 4EZ estão a criar as ideias e transformar em produtos a Situação Integradora proposta para esta período .\n#praticar #4ez",
+                         "autor":  "",
+                         "data":  "2026-11-06T12:00:00Z",
+                         "fotos":  [
+                                       "fotos/4110924067618816_3004175646720.jpg",
+                                       "fotos/4110924067618816_3004175679488.jpg",
+                                       "fotos/4110924067618816_3004175720448.jpg",
+                                       "fotos/4110924067618816_3004175761408.jpg",
+                                       "fotos/4110924067618816_3004175777792.jpg",
+                                       "fotos/4110924067618816_3004175835136.jpg",
+                                       "fotos/4110924067618816_3004175859712.jpg",
+                                       "fotos/4110924067618816_3004175892480.jpg",
+                                       "fotos/4110924067618816_3004175900672.jpg"
                                    ],
                          "fixa":  false,
                          "inicio":  "",
