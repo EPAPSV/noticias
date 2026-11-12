@@ -213,6 +213,15 @@ body{font-family:Raleway,'Segoe UI',Arial,sans-serif;color:#fff}
           if (n.fim && new Date(n.fim).getTime() < agora) return false;
           return true;
         }).slice(0,10);
+        // mais de 6 fotos: a notícia repete-se em partes, cada uma com até 6 fotos (grupos equilibrados)
+        var exp = [];
+        noticias.forEach(function(n){
+          var f = n.fotos||[];
+          if (f.length<=6){ exp.push(n); return; }
+          var k = Math.ceil(f.length/6), t = Math.ceil(f.length/k);
+          for (var i=0;i<k;i++){ var c={}; for (var p in n) c[p]=n[p]; c.fotos=f.slice(i*t,(i+1)*t); exp.push(c); }
+        });
+        noticias = exp;
         if (indice >= noticias.length) indice = -1;
       })
       .catch(function(e){ /* mantém os dados anteriores */ console.warn('Falha a carregar', e); })
