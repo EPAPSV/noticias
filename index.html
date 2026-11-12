@@ -159,7 +159,7 @@ body{font-family:Raleway,'Segoe UI',Arial,sans-serif;color:#fff}
   }
   var DESC = {0:'Céu limpo',1:'Pouco nublado',2:'Parcialmente nublado',3:'Nublado',45:'Nevoeiro',48:'Nevoeiro',51:'Chuvisco',53:'Chuvisco',55:'Chuvisco',56:'Chuvisco gelado',57:'Chuvisco gelado',61:'Chuva fraca',63:'Chuva',65:'Chuva forte',66:'Chuva gelada',67:'Chuva gelada',71:'Neve fraca',73:'Neve',75:'Neve forte',77:'Neve granulada',80:'Aguaceiros',81:'Aguaceiros',82:'Aguaceiros fortes',85:'Aguaceiros de neve',86:'Aguaceiros de neve',95:'Trovoada',96:'Trovoada com granizo',99:'Trovoada com granizo'};
   function carregarTempo(){
-    var u = 'https://api.open-meteo.com/v1/forecast?latitude=40.7333&longitude=-8.3667&current=temperature_2m,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Europe%2FLisbon&forecast_days=5';
+    var u = 'https://api.open-meteo.com/v1/forecast?latitude=40.7333&longitude=-8.3667&current=temperature_2m,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Europe%2FLisbon&forecast_days=6';
     fetch(u).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); }).then(function(j){
       var c = j.current, d = j.daily;
       var h = '<div class="local">Sever do Vouga</div>'+
@@ -167,7 +167,7 @@ body{font-family:Raleway,'Segoe UI',Arial,sans-serif;color:#fff}
         '<div class="desc">'+esc(DESC[c.weather_code]||'')+'</div>'+
         '<div class="minmax">Mín '+Math.round(d.temperature_2m_min[0])+'° · Máx '+Math.round(d.temperature_2m_max[0])+'°</div>'+
         '<div class="prox">';
-      for (var i=1;i<5;i++){
+      for (var i=1;i<6;i++){
         var nome = i===1 ? 'Amanhã' : new Date(d.time[i]+'T12:00:00').toLocaleDateString('pt-PT',{weekday:'long'}).split('-')[0];
         h += '<div class="dia"><span class="nome">'+esc(cap(nome))+'</span>'+icone(d.weather_code[i])+'<span class="mm">'+Math.round(d.temperature_2m_min[i])+'° / '+Math.round(d.temperature_2m_max[i])+'°</span></div>';
       }
