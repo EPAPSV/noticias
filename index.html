@@ -5,88 +5,71 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Notícias PSV</title>
 <style>
-  :root { --fundo:#0b0f14; --texto:#fff; --destaque:#1e9e4a; }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  html,body { width:100%; height:100%; overflow:hidden; background:var(--fundo); color:var(--texto);
-    font-family:"Segoe UI",system-ui,Arial,sans-serif; cursor:none; }
-  #palco { position:fixed; left:0; top:0; bottom:0; width:78%; overflow:hidden; }
-  .slide { position:absolute; inset:0; opacity:0; transition:opacity 1s ease; }
-  .slide.ativo { opacity:1; }
-  .mosaico { position:absolute; inset:0; display:grid; gap:6px; background:#000; }
-  .mosaico .foto { position:relative; overflow:hidden; background:#1b222b; }
-  .mosaico img { width:100%; height:100%; object-fit:cover; display:block; }
-  .slide.ativo .mosaico img { animation:zoom 18s linear forwards; }
-  @keyframes zoom { from{transform:scale(1)} to{transform:scale(1.06)} }
-  .mais { position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
-    background:rgba(0,0,0,.55); font-size:6vh; font-weight:700; }
-
-  /* grelhas por nº de fotos */
-  .n1 { grid-template-columns:1fr; grid-template-rows:1fr; }
-  .n2 { grid-template-columns:1fr 1fr; grid-template-rows:1fr; }
-  .n3 { grid-template-columns:2fr 1fr; grid-template-rows:1fr 1fr; }
-  .n3 .foto:first-child { grid-row:1 / span 2; }
-  .n4 { grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; }
-  .n5 { grid-template-columns:repeat(6,1fr); grid-template-rows:1fr 1fr; }
-  .n5 .foto:nth-child(-n+2) { grid-column:span 3; }
-  .n5 .foto:nth-child(n+3) { grid-column:span 2; }
-  .n6 { grid-template-columns:repeat(3,1fr); grid-template-rows:1fr 1fr; }
-
-  .rodape { position:absolute; left:0; right:0; bottom:0; padding:9vh 4vw 5vh;
-    background:linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.72) 55%, rgba(0,0,0,0) 100%); }
-  .rodape h1 { font-size:4.6vh; line-height:1.15; font-weight:700; margin-bottom:1.2vh;
-    border-left:.8vh solid var(--destaque); padding-left:1.4vw; text-shadow:0 2px 8px rgba(0,0,0,.6); }
-  .rodape p { font-size:3.2vh; line-height:1.35; display:-webkit-box; -webkit-line-clamp:4;
-    -webkit-box-orient:vertical; overflow:hidden; white-space:pre-line; text-shadow:0 2px 8px rgba(0,0,0,.6); }
-  .rodape small { display:block; margin-top:1.4vh; font-size:2.2vh; opacity:.75; }
-
-  /* só texto */
-  .soTexto { background:radial-gradient(ellipse at top left,#1c2a3a,#0b0f14); }
-  .soTexto .rodape { top:0; background:none; display:flex; flex-direction:column; justify-content:center; padding:8vh 8vw; }
-  .soTexto .rodape h1 { font-size:7vh; margin-bottom:3vh; }
-  .soTexto .rodape p { font-size:4.4vh; -webkit-line-clamp:9; }
-
-  #progresso { position:fixed; left:0; bottom:0; height:.7vh; width:0; max-width:78%; background:var(--destaque); z-index:10; }
-  #vazio { position:fixed; left:0; top:0; bottom:0; width:78%; text-align:center; padding:0 4vw; display:none; align-items:center; justify-content:center; font-size:5vh; opacity:.8; }
-
-  /* barra lateral */
-  #lateral { position:fixed; right:0; top:0; bottom:0; width:22%; display:flex; flex-direction:column; align-items:center;
-    justify-content:space-between; padding:3.5vh 1.2vw; text-align:center;
-    background:linear-gradient(170deg,#23a853 0%,#1e9e4a 45%,#14733a 100%); box-shadow:-.6vh 0 2vh rgba(0,0,0,.45); z-index:5; }
-  #lateral .logo { background:#fff; border-radius:1.6vh; padding:1.6vh 1.2vw; width:100%; display:flex; flex-direction:column; align-items:center; gap:1.4vh; }
-  #lateral .logo img { width:100%; max-width:100%; height:auto; display:block; }
-  #lateral .logo .fin { border-top:.2vh solid #e3e7ea; padding-top:1.4vh; }
-  #hora { font-size:9.5vh; font-weight:700; line-height:1; letter-spacing:.02em; font-variant-numeric:tabular-nums; text-shadow:0 .3vh 1vh rgba(0,0,0,.25); }
-  #diasemana { font-size:3.4vh; font-weight:600; margin-top:1.4vh; }
-  #data { font-size:2.8vh; opacity:.92; margin-top:.4vh; }
-  .sep { width:70%; height:.25vh; background:rgba(255,255,255,.45); border-radius:1vh; margin:0 auto; }
-  #tempo { width:100%; }
-  #tempo .agora { display:flex; align-items:center; justify-content:center; gap:1vw; }
-  #tempo .agora svg { width:9vh; height:9vh; flex:none; }
-  #tempo .temp { font-size:8vh; font-weight:700; line-height:1; }
-  #tempo .desc { font-size:2.8vh; margin-top:.8vh; opacity:.95; }
-  #tempo .local { font-size:2.3vh; opacity:.8; margin-bottom:1.2vh; }
-  #tempo .minmax { font-size:2.6vh; margin-top:.6vh; opacity:.95; }
-  #tempo .prox { margin-top:2vh; display:flex; flex-direction:column; gap:1vh; }
-  #tempo .dia { display:flex; align-items:center; justify-content:space-between; background:rgba(0,0,0,.14); border-radius:1.2vh; padding:.8vh 1vw; font-size:2.5vh; }
-  #tempo .dia svg { width:4.4vh; height:4.4vh; }
-  #tempo .dia .nome { width:35%; text-align:left; }
-  #tempo .dia .mm { width:40%; text-align:right; }
+@font-face{font-family:Raleway;font-weight:400;src:url(fontes/raleway-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:Raleway;font-weight:600;src:url(fontes/raleway-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Raleway;font-weight:700;src:url(fontes/raleway-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Raleway;font-weight:900;src:url(fontes/raleway-latin-900-normal.woff2) format('woff2')}
+@font-face{font-family:Barlow;font-weight:700;src:url(fontes/barlow-latin-700-normal.woff2) format('woff2')}
+:root{--destaque:#1e9e4a}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:#000;cursor:none}
+body{font-family:Raleway,'Segoe UI',Arial,sans-serif;color:#fff}
+#palco{position:absolute;width:1920px;height:1080px;transform-origin:0 0;background:#2a2b2f url(fundo.jpg) center/100% 100% no-repeat;overflow:hidden}
+#moldura{position:absolute;left:35px;top:35px;width:1405px;height:845px;padding:7px;background:#fff;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+#quadro{position:relative;width:100%;height:100%;border-radius:4px;overflow:hidden;background:#000}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease}
+.slide.ativo{opacity:1}
+.mosaico{position:absolute;inset:0;display:grid;gap:6px;background:#000}
+.foto{position:relative;overflow:hidden;background:#1b222b}
+.foto img{width:100%;height:100%;object-fit:cover;display:block}
+.slide.ativo .foto img{animation:zoom 18s linear forwards}
+@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.06)}}
+.mais{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.55);font-size:64px;font-weight:900}
+.n1{grid-template-columns:1fr;grid-template-rows:1fr}
+.n2{grid-template-columns:1fr 1fr;grid-template-rows:1fr}
+.n3{grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr}
+.n3 .foto:first-child{grid-row:1/span 2}
+.n4{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr}
+.n5{grid-template-columns:repeat(6,1fr);grid-template-rows:1fr 1fr}
+.n5 .foto:nth-child(-n+2){grid-column:span 3}
+.n5 .foto:nth-child(n+3){grid-column:span 2}
+.n6{grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr}
+.texto{position:absolute;left:0;right:0;bottom:0;padding:90px 56px 40px;background:linear-gradient(to top,rgba(20,21,24,.95) 0%,rgba(20,21,24,.82) 55%,rgba(20,21,24,0) 100%)}
+.texto h1{font-weight:900;font-size:50px;line-height:1.12;margin-bottom:12px;border-left:9px solid var(--destaque);padding-left:20px;text-shadow:0 2px 8px rgba(0,0,0,.6)}
+.texto p{font-size:30px;line-height:1.35;font-weight:400;max-width:1250px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;white-space:pre-line;text-shadow:0 2px 8px rgba(0,0,0,.6)}
+.texto small{display:block;margin-top:12px;font-family:Barlow,Raleway,sans-serif;font-weight:700;font-size:24px;opacity:.8}
+.soTexto{background:#2a2b2f}
+.soTexto .texto{top:0;background:none;display:flex;flex-direction:column;justify-content:center;padding:60px 90px}
+.soTexto .texto h1{font-size:72px;margin-bottom:36px;border-left-width:14px;padding-left:32px}
+.soTexto .texto p{font-size:42px;-webkit-line-clamp:7;max-width:1200px}
+#progresso{position:absolute;left:0;bottom:0;height:7px;width:0;background:var(--destaque);z-index:10}
+#vazio{position:absolute;inset:0;display:none;align-items:center;justify-content:center;text-align:center;padding:0 80px;font-size:44px;font-weight:700;background:#2a2b2f}
+#canto{position:absolute;left:0;top:0;width:394px;height:206px;background:url(canto.png) no-repeat;background-size:100% 100%;filter:drop-shadow(0 4px 8px rgba(0,0,0,.35))}
+#canto img{position:absolute;left:56px;top:24px;width:210px}
+#w{position:absolute;left:1477px;top:204px;width:400px;text-align:center;text-shadow:0 3px 10px rgba(0,0,0,.25)}
+#hora{font-weight:900;font-size:98px;line-height:1;letter-spacing:.02em;font-variant-numeric:tabular-nums}
+#diasemana{font-weight:600;font-size:37px;margin-top:14px}
+#data{font-size:29px;opacity:.92;margin-top:4px}
+.sep{width:70%;height:3px;background:rgba(255,255,255,.45);border-radius:10px;margin:22px auto}
+.local{font-size:25px;opacity:.85;margin-bottom:10px}
+.agora{display:flex;align-items:center;justify-content:center;gap:16px}.agora svg{width:88px;height:88px}
+.temp{font-weight:900;font-size:78px;line-height:1}
+.desc{font-size:29px;margin-top:8px;font-weight:600}.minmax{font-size:27px;margin-top:6px;opacity:.95}
+.prox{margin-top:18px;display:flex;flex-direction:column;gap:10px}
+.dia{display:flex;align-items:center;justify-content:space-between;background:rgba(0,0,0,.16);border-radius:13px;padding:8px 18px;font-size:26px;font-weight:600}
+.dia svg{width:46px;height:46px}.dia .nome{width:38%;text-align:left}.dia .mm{width:40%;text-align:right}
 </style>
 </head>
 <body>
-<div id="palco"></div>
-<div id="progresso"></div>
-<aside id="lateral">
-  <div class="logo"><img src="logo.png" alt="Escola Profissional de Aveiro"><img class="fin" src="logo-financiamento.png" alt="Pessoas 2030, Portugal 2030, Cofinanciado pela União Europeia"></div>
-  <div class="relogio">
-    <div id="hora">--:--</div>
-    <div id="diasemana"></div>
-    <div id="data"></div>
+<div id="palco">
+  <div id="moldura"><div id="quadro"><div id="vazio">Escola Profissional de Aveiro – Pólo de Sever do Vouga</div><div id="progresso"></div></div></div>
+  <div id="canto"><img src="logo-aeva.png" alt="AEVA · Escola Profissional de Aveiro"></div>
+  <div id="w">
+    <div id="hora">--:--</div><div id="diasemana"></div><div id="data"></div>
+    <div class="sep"></div>
+    <div id="tempo"></div>
   </div>
-  <div class="sep"></div>
-  <div id="tempo"></div>
-</aside>
-<div id="vazio">Escola Profissional de Aveiro – Pólo de Sever do Vouga</div>
+</div>
 <script>
 (function(){
   var DEMO = /[?&]demo=1/.test(location.search);
@@ -95,7 +78,7 @@
   var cfg = { segundos:12, recarregarMinutos:5 };
   var noticias = [];
   var indice = -1, atual = null, timer = null;
-  var palco = document.getElementById('palco');
+  var palco = document.getElementById('quadro');
   var barra = document.getElementById('progresso');
   var vazio = document.getElementById('vazio');
 
@@ -135,7 +118,7 @@
     if (!n.titulo && linhas.length===0) linhas = [];
     var corpo = n.titulo ? (n.texto||'') : linhas.join('\n');
     var meta = [n.autor, n.data?dataPT(n.data):''].filter(Boolean).join(' · ');
-    html += '<div class="rodape"><h1>'+esc(titulo)+'</h1>'+(corpo?'<p>'+esc(corpo)+'</p>':'')+(meta?'<small>'+esc(meta)+'</small>':'')+'</div>';
+    html += '<div class="texto"><h1>'+esc(titulo)+'</h1>'+(corpo?'<p>'+esc(corpo)+'</p>':'')+(meta?'<small>'+esc(meta)+'</small>':'')+'</div>';
     el.innerHTML = html;
     // ignorar imagens que falham
     Array.prototype.forEach.call(el.querySelectorAll('.foto img'), function(img){
@@ -148,6 +131,8 @@
   // ---------- barra lateral: hora, data, tempo ----------
   var TZ = 'Europe/Lisbon';
   function cap(t){ return t ? t.charAt(0).toUpperCase()+t.slice(1) : t; }
+  function ajustar(){ var s=Math.min(innerWidth/1920,innerHeight/1080); var p=document.getElementById('palco'); p.style.transform='scale('+s+')'; p.style.left=((innerWidth-1920*s)/2)+'px'; p.style.top=((innerHeight-1080*s)/2)+'px'; }
+  ajustar(); addEventListener('resize',ajustar);
   function relogio(){
     var d = new Date();
     document.getElementById('hora').textContent = d.toLocaleTimeString('pt-PT',{hour:'2-digit',minute:'2-digit',timeZone:TZ});
@@ -174,7 +159,7 @@
   }
   var DESC = {0:'Céu limpo',1:'Pouco nublado',2:'Parcialmente nublado',3:'Nublado',45:'Nevoeiro',48:'Nevoeiro',51:'Chuvisco',53:'Chuvisco',55:'Chuvisco',56:'Chuvisco gelado',57:'Chuvisco gelado',61:'Chuva fraca',63:'Chuva',65:'Chuva forte',66:'Chuva gelada',67:'Chuva gelada',71:'Neve fraca',73:'Neve',75:'Neve forte',77:'Neve granulada',80:'Aguaceiros',81:'Aguaceiros',82:'Aguaceiros fortes',85:'Aguaceiros de neve',86:'Aguaceiros de neve',95:'Trovoada',96:'Trovoada com granizo',99:'Trovoada com granizo'};
   function carregarTempo(){
-    var u = 'https://api.open-meteo.com/v1/forecast?latitude=40.7333&longitude=-8.3667&current=temperature_2m,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Europe%2FLisbon&forecast_days=3';
+    var u = 'https://api.open-meteo.com/v1/forecast?latitude=40.7333&longitude=-8.3667&current=temperature_2m,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Europe%2FLisbon&forecast_days=5';
     fetch(u).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); }).then(function(j){
       var c = j.current, d = j.daily;
       var h = '<div class="local">Sever do Vouga</div>'+
@@ -182,7 +167,7 @@
         '<div class="desc">'+esc(DESC[c.weather_code]||'')+'</div>'+
         '<div class="minmax">Mín '+Math.round(d.temperature_2m_min[0])+'° · Máx '+Math.round(d.temperature_2m_max[0])+'°</div>'+
         '<div class="prox">';
-      for (var i=1;i<3;i++){
+      for (var i=1;i<5;i++){
         var nome = i===1 ? 'Amanhã' : new Date(d.time[i]+'T12:00:00').toLocaleDateString('pt-PT',{weekday:'long'}).split('-')[0];
         h += '<div class="dia"><span class="nome">'+esc(cap(nome))+'</span>'+icone(d.weather_code[i])+'<span class="mm">'+Math.round(d.temperature_2m_min[i])+'° / '+Math.round(d.temperature_2m_max[i])+'°</span></div>';
       }
