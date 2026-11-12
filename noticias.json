@@ -1,10 +1,47 @@
 {
-    "atualizado":  "2026-11-12T13:45:00.3928996Z",
+    "atualizado":  "2026-11-12T13:50:00.9679548Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4119018822467584",
+                         "titulo":  "Apresentação dos Anteprojetos PAP | Equipas do 3.º Ano | Pólo de Sever do Vouga",
+                         "texto":  "As Equipas do 3.º Ano do Pólo de Sever do Vouga estão a realizar a apresentação dos seus Anteprojetos de Prova de Aptidão Profissional (PAP).\nEsta etapa representa um momento importante no percurso formativo dos alunos, permitindo dar a conhecer as ideias, os objetivos e as propostas de trabalho que irão desenvolver no âmbito dos seus projetos finais de curso.\nA todos os juniores, desejamos muito sucesso nesta caminhadas!\n#psv #pap #3ºano",
+                         "autor":  "",
+                         "data":  "2026-11-12T11:40:53Z",
+                         "fotos":  [
+                                       "fotos/4119018822467584_3009629945856.jpg",
+                                       "fotos/4119018822467584_3009629954048.jpg",
+                                       "fotos/4119018822467584_3009629962240.jpg",
+                                       "fotos/4119018822467584_3009629970432.jpg",
+                                       "fotos/4119018822467584_3009629978624.jpg",
+                                       "fotos/4119018822467584_3009629986816.jpg",
+                                       "fotos/4119018822467584_3009629995008.jpg",
+                                       "fotos/4119018822467584_3009630003200.jpg",
+                                       "fotos/4119018822467584_3009630011392.jpg",
+                                       "fotos/4119018822467584_3009630019584.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4119012561960960",
+                         "titulo":  "Apresentação dos Anteprojetos PAP",
+                         "texto":  "Os juniores do 3º ano dos CP do Pólo de Sever do Vouga da Escola Profissional de Aveiro apresentam os seus Planos de Anteprojetos PAP.\nA atividade consiste na apresentação oral do anteprojeto da Prova de Aptidão Profissional (PAP), durante a qual os juniores dão a conhecer a temática escolhida, os objetivos a alcançar, as atividades previstas, os recursos necessários e o cronograma de execução. Este momento permite validar a pertinência e a viabilidade do projeto, promovendo a reflexão crítica, a capacidade de planeamento e a comunicação eficaz. A apresentação constitui ainda uma oportunidade para recolher sugestões e orientações que contribuam para o aperfeiçoamento do projeto antes da sua implementação e desenvolvimento.",
+                         "autor":  "",
+                         "data":  "2026-11-12T11:34:40Z",
+                         "fotos":  [
+                                       "fotos/4119012561960960_3009655250944.jpg",
+                                       "fotos/4119012561960960_3009655259136.jpg",
+                                       "fotos/4119012561960960_3009655267328.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4114930399043584",
                          "titulo":  "Webinário - Integridade e Anticorrupção",
