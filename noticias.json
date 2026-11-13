@@ -1,10 +1,36 @@
 {
-    "atualizado":  "2026-11-12T17:05:01.0433048Z",
+    "atualizado":  "2026-11-13T11:50:00.7334006Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4119824150323200",
+                         "titulo":  "EPA marca presença no WorldSkills Portugal 2026",
+                         "texto":  "A EPA participará no 47.º Campeonato Nacional das Profissões - WorldSkills Portugal 2026, que decorrerá de 16 a 19 de novembro, em Viseu, reunindo jovens talentos de todo o país para demonstrar competências técnicas e profissionais.\nA representação da EPA será assegurada por 5 concorrentes (juniores) e 5 jurados (coaches). Após a receção dos participantes e a sessão de abertura, as provas decorrerão ao longo de três dias, terminando a 19 de novembro com um programa social e a cerimónia de encerramento.\nEsta participação constitui uma importante oportunidade para os formandos colocarem em prática os conhecimentos adquiridos, contactarem com as exigências do mercado de trabalho e valorizarem o ensino profissional ministrado pela EPA.\nA comunidade educativa deseja o maior sucesso a todos os participantes nesta experiência de crescimento pessoal e profissional.\nBoa sorte a todos! 🍀🏆\nWorldSkills Portugal 2026 - Eu atrevo-me! E tu?",
+                         "autor":  "",
+                         "data":  "2026-11-13T01:00:55Z",
+                         "fotos":  [
+                                       "fotos/4119824150323200_3010429886464.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4119709562658816",
+                         "titulo":  "No próximo dia 20 de novembro, às 10h00, no âmbito do projeto educativo da Escola e do seu Plano de Inovação realizaremos, no Pólo de Sever do Vouga da Escola Profissional de Aveiro, a primeira edição do: Sponsors de Competências | Skills Co-Lab",
+                         "texto":  "Trata-se de um momento particularmente relevante no âmbito da implementação da EPA SkillFACTORY, modelo educativo que aproxima a aprendizagem dos contextos reais, promovendo o desenvolvimento de competências através de projetos com significado, desafios concretos e forte ligação ao tecido empresarial e ao território.\nNeste encontro estarão presentes várias empresas e entidades parceiras que aceitaram assumir o papel de Sponsors de Competências e outros parceiros estratégicos associados às diferentes equipas e áreas de formação da Escola.\nO encontro terá dois momentos distintos. Num primeiro momento, partilharemos com os Sponsors o enquadramento da EPA SkillFACTORY, o conceito de Sponsor de Competências e o papel que estes parceiros desempenham no desenvolvimento das competências dos nossos alunos.\nNum segundo momento, cada Sponsor reunirá com a equipa que irá acompanhar ao longo do ano letivo, conhecendo os projetos em desenvolvimento, os desafios identificados e as oportunidades de colaboração futura.",
+                         "autor":  "",
+                         "data":  "2026-11-12T23:07:05Z",
+                         "fotos":  [
+                                       "fotos/4119709562658816_3010374328320.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4119018822467584",
                          "titulo":  "Apresentação dos Anteprojetos PAP | Equipas do 3.º Ano | Pólo de Sever do Vouga",
