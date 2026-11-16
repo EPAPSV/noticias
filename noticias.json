@@ -1,10 +1,105 @@
 {
-    "atualizado":  "2026-11-13T17:00:01.5505281Z",
+    "atualizado":  "2026-11-16T09:50:01.9582652Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4122269317054464",
+                         "titulo":  "#eplan_evolution_2026_monte_real#",
+                         "texto":  "Engineering_Intelligence_The_Next_Chapter_💻💻💻🖱️🖱️🖱️🛜🛜🛜",
+                         "autor":  "",
+                         "data":  "2026-11-14T17:29:58Z",
+                         "fotos":  [
+                                       "fotos/4122269317054464_3011905429504.jpg",
+                                       "fotos/4122269317054464_3011905470464.jpg",
+                                       "fotos/4122269317054464_3011905503232.jpg",
+                                       "fotos/4122269317054464_3011905536000.jpg",
+                                       "fotos/4122269317054464_3011905544192.jpg",
+                                       "fotos/4122269317054464_3011905585152.jpg",
+                                       "fotos/4122269317054464_3011905617920.jpg",
+                                       "fotos/4122269317054464_3011905634304.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4122262166544384",
+                         "titulo":  "#t2bq_cef_epa_psv_2026_2027",
+                         "texto":  "E lá se vai trabalhando,🔌🔌🔌💡💡💡⚡⚡⚡🛠️🛠️🛠️.",
+                         "autor":  "",
+                         "data":  "2026-11-14T17:22:52Z",
+                         "fotos":  [
+                                       "fotos/4122262166544384_3011902685184.jpg",
+                                       "fotos/4122262166544384_3011902717952.jpg",
+                                       "fotos/4122262166544384_3011902750720.jpg",
+                                       "fotos/4122262166544384_3011902767104.jpg",
+                                       "fotos/4122262166544384_3011902816256.jpg",
+                                       "fotos/4122262166544384_3011902849024.jpg",
+                                       "fotos/4122262166544384_3011902889984.jpg",
+                                       "fotos/4122262166544384_3011902930944.jpg",
+                                       "fotos/4122262166544384_3011902947328.jpg",
+                                       "fotos/4122262166544384_3011902963712.jpg",
+                                       "fotos/4122262166544384_3011902996480.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4122247612899328",
+                         "titulo":  "E o treino continua, 🛠️🛠️🛠️🛠️⚡⚡⚡💡💡💡💡🔌🔌🔌",
+                         "texto":  "#4em_instalacoes_eletricas_psv_epa_2026_2027",
+                         "autor":  "",
+                         "data":  "2026-11-14T17:08:24Z",
+                         "fotos":  [
+                                       "fotos/4122247612899328_3011898351616.jpg",
+                                       "fotos/4122247612899328_3011898368000.jpg",
+                                       "fotos/4122247612899328_3011898384384.jpg",
+                                       "fotos/4122247612899328_3011898392576.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4122240479076352",
+                         "titulo":  "E o trabalho continua, continuando...🔨🔨🔨🔨🛠️🛠️🛠️",
+                         "texto":  "#t3au #cef_2026_2027",
+                         "autor":  "",
+                         "data":  "2026-11-14T17:01:19Z",
+                         "fotos":  [
+                                       "fotos/4122240479076352_3011896057856.jpg",
+                                       "fotos/4122240479076352_3011896123392.jpg",
+                                       "fotos/4122240479076352_3011896139776.jpg",
+                                       "fotos/4122240479076352_3011896164352.jpg",
+                                       "fotos/4122240479076352_3011896172544.jpg",
+                                       "fotos/4122240479076352_3011896238080.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4120973208739840",
+                         "titulo":  "Aprendizagem, partilha e crescimento!",
+                         "texto":  "Investir na formação é investir nas pessoas, no crescimento individual e no sucesso de toda a equipa.",
+                         "autor":  "",
+                         "data":  "2026-11-13T20:02:24Z",
+                         "fotos":  [
+                                       "fotos/4120973208739840_3011465330688.jpg",
+                                       "fotos/4120973208739840_3011465379840.jpg",
+                                       "fotos/4120973208739840_3011465453568.jpg",
+                                       "fotos/4120973208739840_3011465510912.jpg",
+                                       "fotos/4120973208739840_3011465584640.jpg",
+                                       "fotos/4120973208739840_3011465658368.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4119824150323200",
                          "titulo":  "EPA marca presença no WorldSkills Portugal 2026",
