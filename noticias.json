@@ -1,10 +1,29 @@
 {
-    "atualizado":  "2026-11-16T17:15:01.4427645Z",
+    "atualizado":  "2026-11-16T17:20:00.5126184Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4125154274230272",
+                         "titulo":  "47 NACIONAL SKILLS COMPETITION",
+                         "texto":  "São competições dirigidas a jovens entre os 17 e aos 25 anos , que concluíram ou se encontram a frequentar um percurso de qualificações, em modalidades de educação e formação profissional, e visam demonstrar o nível individual de competências , rigor e domínio de técnicas e ferramentas para para o exercício de cada profissão a concurso, através da realização de provas práticas de desempenho avaliadas segundo critérios existentes e de acordo com prescrições técnicas estabelecidas internacionalmente por júris compostos de peritos altamente qualificados (formadores , profissionais, empresários).\nCom estes Campeonatos, que se pretendem amplamente participados, visa- se aferir a eficiência eficácia da formação profissional ministrado pelos diferentes operadores e , induzir factores de crescente qualidade, inovação e criatividade nos nos processos de ensino-aprendizagem.\nOs Campeonatos têm lugar de 2 em 2 anos e reúnem os classificados com as melhores pontuações na fase de pré-seleção, que disputam entre si o título de Campeão Nacional em cada profissão.\n#praticar #epa",
+                         "autor":  "",
+                         "data":  "2026-11-16T17:15:55Z",
+                         "fotos":  [
+                                       "fotos/4125154274230272_3013324996608.jpg",
+                                       "fotos/4125154274230272_3013325045760.jpg",
+                                       "fotos/4125154274230272_3013325103104.jpg",
+                                       "fotos/4125154274230272_3013325357056.jpg",
+                                       "fotos/4125154274230272_3013325381632.jpg",
+                                       "fotos/4125154274230272_3013326061568.jpg",
+                                       "fotos/4125154274230272_3013326716928.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4122269317054464",
                          "titulo":  "#eplan_evolution_2026_monte_real#",
