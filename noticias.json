@@ -1,10 +1,23 @@
 {
-    "atualizado":  "2026-11-17T17:10:00.7587840Z",
+    "atualizado":  "2026-11-18T18:50:01.1391721Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4127598784823296",
+                         "titulo":  "Taça de Portugal de Ralicross e Kartcross em Sever do Vouga 2026",
+                         "texto":  "No âmbito da parceria entre o Pólo de Sever do Vouga e o Vouga Sport Club, sete juniores irão desempenhar funções de Comissários de Pista na Taça de Portugal de Ralicross e Kartcross, que decorrerá em Sever do Vouga nos próximos dias 21 e 22 de novembro de 2026.\nEsta participação representa mais uma oportunidade para os nossos juniores demonstrarem à comunidade o seu compromisso, sentido de responsabilidade e capacidade de adaptação aos mais diversos contextos, evidenciando a polivalência e as competências que têm vindo a desenvolver ao longo do seu percurso.\nEstamos certos de que representarão da melhor forma o Pólo de Sever do Vouga, contribuindo para o sucesso de um evento de grande relevância para o concelho e para a região.",
+                         "autor":  "",
+                         "data":  "2026-11-18T09:44:19Z",
+                         "fotos":  [
+                                       "fotos/4127598784823296_3015403339776.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4125154274230272",
                          "titulo":  "47 NACIONAL SKILLS COMPETITION",
