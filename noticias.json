@@ -1,10 +1,28 @@
 {
-    "atualizado":  "2026-11-19T16:05:00.8048098Z",
+    "atualizado":  "2026-11-19T16:10:01.3444759Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4129407925796864",
+                         "titulo":  "Coaches do Pólo de Sever do Vouga da Escola Profissional de Aveiro presentes na Formação Inicial Presencial do Apps for Good.",
+                         "texto":  "As Coaches Ana Fernandes e Ana Gonçalves do Pólo de Sever do Vouga da EPA estiveram presentes na Formação Inicial Presencial do Apps for Good que decorreu no dia 13 de novembro, no Centro de Inovação Carlos Fiolhais na Maia.\nA Formação Inicial Presencial Apps for Good constituiu um momento de capacitação dirigido aos docentes participantes no programa, proporcionando o contacto com a metodologia Apps for Good e com as diferentes etapas do desenvolvimento de projetos de inovação e empreendedorismo social. Durante a sessão, os participantes exploraram estratégias para identificar problemas reais da comunidade, conceber soluções criativas com recurso à tecnologia e orientar os alunos na construção de projetos com impacto social.\nAtravés de atividades práticas, trabalho colaborativo e partilha de experiências, os formandos desenvolveram competências relacionadas com o design thinking, a resolução de problemas, a gestão de projetos e a utilização de ferramentas digitais, adquirindo conhecimentos essenciais para implementar o programa em contexto educativo e promover uma aprendizagem ativa, significativa e centrada no aluno.",
+                         "autor":  "",
+                         "data":  "2026-11-19T15:41:32Z",
+                         "fotos":  [
+                                       "fotos/4129407925796864_3017248784384.jpg",
+                                       "fotos/4129407925796864_3017248792576.jpg",
+                                       "fotos/4129407925796864_3017248800768.jpg",
+                                       "fotos/4129407925796864_3017248808960.jpg",
+                                       "fotos/4129407925796864_3017248817152.jpg",
+                                       "fotos/4129407925796864_3017248825344.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4127598784823296",
                          "titulo":  "Taça de Portugal de Ralicross e Kartcross em Sever do Vouga 2026",
