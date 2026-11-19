@@ -1,5 +1,5 @@
 {
-    "atualizado":  "2026-11-19T19:55:00.9089855Z",
+    "atualizado":  "2026-11-19T20:00:00.3659229Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
@@ -170,7 +170,8 @@
                          "autor":  "",
                          "data":  "2026-11-12T23:07:05Z",
                          "fotos":  [
-                                       "fotos/4119709562658816_3010374328320.jpg"
+                                       "fotos/4119709562658816_3010374328320.jpg",
+                                       "fotos/4119709562658816_cartaz_sponsors.jpg"
                                    ],
                          "fixa":  false,
                          "inicio":  "",
