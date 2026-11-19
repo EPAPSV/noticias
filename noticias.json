@@ -1,10 +1,26 @@
 {
-    "atualizado":  "2026-11-19T21:10:00.8064365Z",
+    "atualizado":  "2026-11-19T21:15:00.7357750Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4129739630739456",
+                         "titulo":  "No dia 18 de Novembro, as equipas 4EM, 4EN, 4EO, 4EP participaram numa palestra dedicada ao Dia Nacional do Não Fumador, dinamizada pelo Dr. Gilberto Teixeira da Silva, Pneumologista do Hospital Infante D. Pedro.",
+                         "texto":  "Realizada no Creative Studio, entre 14:30 e as 15:15, esta sessão teve como principal objetivo sensibilizar e consciencializar os jovens para os riscos e consequências associados ao consumo de produtos de tabaco e nicotina, promovendo escolhas mais informadas e saudáveis.",
+                         "autor":  "",
+                         "data":  "2026-11-19T21:11:03Z",
+                         "fotos":  [
+                                       "fotos/4129739630739456_3017636732928.jpg",
+                                       "fotos/4129739630739456_3017636741120.jpg",
+                                       "fotos/4129739630739456_3017636749312.jpg",
+                                       "fotos/4129739630739456_3017636773888.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4129407925796864",
                          "titulo":  "Coaches do Pólo de Sever do Vouga da Escola Profissional de Aveiro presentes na Formação Inicial Presencial do Apps for Good.",
