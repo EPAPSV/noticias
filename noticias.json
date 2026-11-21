@@ -1,10 +1,28 @@
 {
-    "atualizado":  "2026-11-21T08:20:00.0407107Z",
+    "atualizado":  "2026-11-21T08:25:00.2094378Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4131099839004672",
+                         "titulo":  "Juniores apresentam projetos SIA’s ao sponsor Fafinstala.",
+                         "texto":  "A sessão permitiu partilhar os objetivos, as soluções criadas e o percurso de aprendizagem realizado ao longo do projeto.\nCom empenho, criatividade e espírito de equipa, os juniores demonstraram como é possível transformar ideias em propostas práticas e úteis para a comunidade. A iniciativa contribuiu ainda para o desenvolvimento de competências essenciais, como a comunicação, a colaboração e a resolução de problemas.\nA Fafinstala, empresa com forte presença no distrito de Aveiro e experiência no setor elétrico e energético, foi o sponsor desta iniciativa, reforçando a importância do apoio das empresas à educação e à formação dos jovens.\nOs juniores agradeceram o apoio recebido e destacaram a oportunidade de apresentar os seus projetos a uma empresa real, aproximando a escola do mundo profissional.\nProjetos:\nEnervila\nHorseRace\nExplore 360\nKit monitorização tomada",
+                         "autor":  "",
+                         "data":  "2026-11-20T19:42:18Z",
+                         "fotos":  [
+                                       "fotos/4131099839004672_3018922582016.jpg",
+                                       "fotos/4131099839004672_3018922696704.jpg",
+                                       "fotos/4131099839004672_3018922795008.jpg",
+                                       "fotos/4131099839004672_3018922926080.jpg",
+                                       "fotos/4131099839004672_3018923016192.jpg",
+                                       "fotos/4131099839004672_3018923106304.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4129739630739456",
                          "titulo":  "No dia 18 de Novembro, as equipas 4EM, 4EN, 4EO, 4EP participaram numa palestra dedicada ao Dia Nacional do Não Fumador, dinamizada pelo Dr. Gilberto Teixeira da Silva, Pneumologista do Hospital Infante D. Pedro.",
