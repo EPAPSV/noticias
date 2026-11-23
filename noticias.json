@@ -1,10 +1,28 @@
 {
-    "atualizado":  "2026-11-23T16:15:00.3961717Z",
+    "atualizado":  "2026-11-23T16:20:00.8104584Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4135238600458240",
+                         "titulo":  "1.º Momento SkillLABS - Equipa 4ER",
+                         "texto":  "A equipa 4ER, do Curso Profissional de Técnico de Eletrónica e Telecomunicações, 2º ano, realizou a sua apresentação no âmbito do 1º SkillLabs da época.\nParabéns Equipa!\n#4er #skilllabs",
+                         "autor":  "",
+                         "data":  "2026-11-23T16:13:47Z",
+                         "fotos":  [
+                                       "fotos/4135238600458240_3020536471552.jpg",
+                                       "fotos/4135238600458240_3020536487936.jpg",
+                                       "fotos/4135238600458240_3020536496128.jpg",
+                                       "fotos/4135238600458240_3020536504320.jpg",
+                                       "fotos/4135238600458240_3020536512512.jpg",
+                                       "fotos/4135238600458240_3020536520704.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4131099839004672",
                          "titulo":  "Juniores apresentam projetos SIA’s ao sponsor Fafinstala.",
@@ -18,6 +36,19 @@
                                        "fotos/4131099839004672_3018922926080.jpg",
                                        "fotos/4131099839004672_3018923016192.jpg",
                                        "fotos/4131099839004672_3018923106304.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4129851518828544",
+                         "titulo":  "(sem texto)",
+                         "texto":  "",
+                         "autor":  "",
+                         "data":  "2026-11-19T23:02:12Z",
+                         "fotos":  [
+
                                    ],
                          "fixa":  false,
                          "inicio":  "",
