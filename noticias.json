@@ -1,10 +1,29 @@
 {
-    "atualizado":  "2026-11-23T16:55:00.5193888Z",
+    "atualizado":  "2026-11-23T17:00:01.4952142Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4135261965934592",
+                         "titulo":  "Dimensionamento da Ponte de Santiago - Sever do Vouga",
+                         "texto":  "A equipa 4EZ, do Curso Profissional de Técnico/a de Sistemas Térmicos de Energias Renováveis, realizou uma atividade na Ecopista, no âmbito da disciplina de Matemática, com o objetivo de realizar o dimensionamento da ponte e o planeamento de uma possível estrutura de Natal que se se estenderia em 60% do seu comprimento.\nOs juniores foram desafiados a fazer as medições, somente com o uso de uma fita métrica de 3 metros. Com o planeamento inicial a apontar para o cálculo do comprimento da estrutura, do número de LED´s que a mesma teria na sua totalidade e o orçamento da mesma, os juniores foram capazes de realizar a atividade com sucesso, com motivação e competência.\n#4ez",
+                         "autor":  "",
+                         "data":  "2026-11-23T16:37:00Z",
+                         "fotos":  [
+                                       "fotos/4135261965934592_3020564897792.jpg",
+                                       "fotos/4135261965934592_3020564914176.jpg",
+                                       "fotos/4135261965934592_3020564930560.jpg",
+                                       "fotos/4135261965934592_3020564938752.jpg",
+                                       "fotos/4135261965934592_3020564946944.jpg",
+                                       "fotos/4135261965934592_3020564955136.jpg",
+                                       "fotos/4135261965934592_3020564963328.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4135241543942144",
                          "titulo":  "1.º Momento SkillLABS - Equipa T2BN",
