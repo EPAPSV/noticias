@@ -1,10 +1,42 @@
 {
-    "atualizado":  "2026-11-23T16:20:00.8104584Z",
+    "atualizado":  "2026-11-23T16:25:01.1837318Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4135241543942144",
+                         "titulo":  "1.º Momento SkillLABS - Equipa T2BN",
+                         "texto":  "A equipa 4ER, do Curso de Educação e Formação de Eletromecânico/a de Manutenção Industrial - Tipo 2, 2º ano, realizou a sua apresentação no âmbito do 1º SkillLabs da época.\nParabéns Equipa!\n#t2bn #skilllabs",
+                         "autor":  "",
+                         "data":  "2026-11-23T16:16:43Z",
+                         "fotos":  [
+                                       "fotos/4135241543942144_3020539691008.jpg",
+                                       "fotos/4135241543942144_3020539699200.jpg",
+                                       "fotos/4135241543942144_3020539723776.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4135239676911616",
+                         "titulo":  "1.º Momento SkillLABS - Equipa 4FB",
+                         "texto":  "A equipa 4ER, do Curso Profissional de Técnico de Eletrónica e Comunicações, 1º ano, realizou a sua apresentação no âmbito do 1º SkillLabs da época.\nParabéns Equipa!\n#4fb #skilllabs",
+                         "autor":  "",
+                         "data":  "2026-11-23T16:14:52Z",
+                         "fotos":  [
+                                       "fotos/4135239676911616_3020537708544.jpg",
+                                       "fotos/4135239676911616_3020537724928.jpg",
+                                       "fotos/4135239676911616_3020537741312.jpg",
+                                       "fotos/4135239676911616_3020537749504.jpg",
+                                       "fotos/4135239676911616_3020537757696.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4135238600458240",
                          "titulo":  "1.º Momento SkillLABS - Equipa 4ER",
