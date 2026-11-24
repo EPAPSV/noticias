@@ -1,10 +1,28 @@
 {
-    "atualizado":  "2026-11-24T18:55:00.6258844Z",
+    "atualizado":  "2026-11-24T19:00:02.7039791Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4136740871585792",
+                         "titulo":  "1.º SkillLABS | Mostra de Aprendizagens",
+                         "texto":  "Equipa T3AU - CEF - Manutenção Industrial - Eletromecânica\nA Equipa esteve durante a manhã a assistir às apresentações das Equipas 4EQ e 4EZ e, no período da tarde, subiram ao palco para evidenciar as suas aprendizagens desenvolvidas ao longo deste período inicial do Projecto Educativo.\nUm primeiro passo que revelou um desempenho muito positivo de toda a Equipa e de cada Juvenil do ponto de vista individual!\nParabéns especial a todos os Juvenis, mas também a todos os Coaches, bem como, a toda a equipa de colaboradores que contribuem continuada e consistentemente para o crescimento dos Juvenis!!!",
+                         "autor":  "",
+                         "data":  "2026-11-24T17:06:10Z",
+                         "fotos":  [
+                                       "fotos/4136740871585792_3021835255808.jpg",
+                                       "fotos/4136740871585792_3021835264000.jpg",
+                                       "fotos/4136740871585792_3021835272192.jpg",
+                                       "fotos/4136740871585792_3021835280384.jpg",
+                                       "fotos/4136740871585792_3021836034048.jpg",
+                                       "fotos/4136740871585792_3021837533184.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4136729029607424",
                          "titulo":  "2.º dia de SkillLABS no Pólo | Equipas 4EQ, 4EZ, e T3AU",
