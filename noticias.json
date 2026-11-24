@@ -1,10 +1,32 @@
 {
-    "atualizado":  "2026-11-24T13:15:01.1931057Z",
+    "atualizado":  "2026-11-24T13:20:00.9209389Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4136498100469760",
+                         "titulo":  "SkillLabs da equipa 4EQ",
+                         "texto":  "",
+                         "autor":  "",
+                         "data":  "2026-11-24T13:04:59Z",
+                         "fotos":  [
+                                       "fotos/4136498100469760_3021562314752.jpg",
+                                       "fotos/4136498100469760_3021562470400.jpg",
+                                       "fotos/4136498100469760_3021562544128.jpg",
+                                       "fotos/4136498100469760_3021562658816.jpg",
+                                       "fotos/4136498100469760_3021562716160.jpg",
+                                       "fotos/4136498100469760_3021562757120.jpg",
+                                       "fotos/4136498100469760_3021562822656.jpg",
+                                       "fotos/4136498100469760_3021562929152.jpg",
+                                       "fotos/4136498100469760_3021562986496.jpg",
+                                       "fotos/4136498100469760_3021563052032.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4135261965934592",
                          "titulo":  "Dimensionamento da Ponte de Santiago - Sever do Vouga",
