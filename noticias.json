@@ -1,10 +1,39 @@
 {
-    "atualizado":  "2026-11-24T16:55:00.5889703Z",
+    "atualizado":  "2026-11-24T17:00:01.3388487Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4136729029607424",
+                         "titulo":  "2.º dia de SkillLABS no Pólo | Equipas 4EQ, 4EZ, e T3AU",
+                         "texto":  "Hoje foi mais um dia de partilha, dedicação e demonstração do excelente trabalho desenvolvido pelas nossas equipas.\nCada apresentação reflete o empenho, o profissionalismo, o espírito de equipa e a paixão colocados em cada desafio. São estes momentos que mostram o valor do trabalho que se constrói diariamente, em conjunto!\nParabéns a todas as equipas pelo excelente trabalho, pela entrega e pela qualidade demonstrada.\n#psv #t3au #4eq #4ez #skilllabs #epa",
+                         "autor":  "",
+                         "data":  "2026-11-24T16:54:24Z",
+                         "fotos":  [
+                                       "fotos/4136729029607424_3021831610368.jpg",
+                                       "fotos/4136729029607424_3021831618560.jpg",
+                                       "fotos/4136729029607424_3021831626752.jpg",
+                                       "fotos/4136729029607424_3021831634944.jpg",
+                                       "fotos/4136729029607424_3021831643136.jpg",
+                                       "fotos/4136729029607424_3021831651328.jpg",
+                                       "fotos/4136729029607424_3021831659520.jpg",
+                                       "fotos/4136729029607424_3021831675904.jpg",
+                                       "fotos/4136729029607424_3021831684096.jpg",
+                                       "fotos/4136729029607424_3021831692288.jpg",
+                                       "fotos/4136729029607424_3021831700480.jpg",
+                                       "fotos/4136729029607424_3021831708672.jpg",
+                                       "fotos/4136729029607424_3021831716864.jpg",
+                                       "fotos/4136729029607424_3021831725056.jpg",
+                                       "fotos/4136729029607424_3021831733248.jpg",
+                                       "fotos/4136729029607424_3021831741440.jpg",
+                                       "fotos/4136729029607424_3021831749632.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4136498100469760",
                          "titulo":  "SkillLabs da equipa 4EQ",
