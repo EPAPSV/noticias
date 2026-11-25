@@ -1,10 +1,37 @@
 {
-    "atualizado":  "2026-11-25T18:25:00.4845157Z",
+    "atualizado":  "2026-11-25T18:30:02.1512200Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4138268102115328",
+                         "titulo":  "1° Bootcamps equipa T2BN",
+                         "texto":  "Preparação os acabamentos dos suportes para monitores e continuação das cadeiras.\n#t2bn #bootcamp#pSV",
+                         "autor":  "",
+                         "data":  "2026-11-25T18:23:20Z",
+                         "fotos":  [
+                                       "fotos/4138268102115328_3023220383744.jpg",
+                                       "fotos/4138268102115328_3023220514816.jpg",
+                                       "fotos/4138268102115328_3023220572160.jpg",
+                                       "fotos/4138268102115328_3023220604928.jpg",
+                                       "fotos/4138268102115328_3023220645888.jpg",
+                                       "fotos/4138268102115328_3023220670464.jpg",
+                                       "fotos/4138268102115328_3023220703232.jpg",
+                                       "fotos/4138268102115328_3023220719616.jpg",
+                                       "fotos/4138268102115328_3023220801536.jpg",
+                                       "fotos/4138268102115328_3023220858880.jpg",
+                                       "fotos/4138268102115328_3023220899840.jpg",
+                                       "fotos/4138268102115328_3023220948992.jpg",
+                                       "fotos/4138268102115328_3023221014528.jpg",
+                                       "fotos/4138268102115328_3023221153792.jpg",
+                                       "fotos/4138268102115328_3023221211136.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4138178012798976",
                          "titulo":  "BootCamp \"Encontro de Saberes - Equipa EQ",
