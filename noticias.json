@@ -1,10 +1,26 @@
 {
-    "atualizado":  "2026-11-25T16:55:00.9175526Z",
+    "atualizado":  "2026-11-25T17:00:01.3259317Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4138178012798976",
+                         "titulo":  "BootCamp \"Encontro de Saberes - Equipa EQ",
+                         "texto":  "A equipa 4EQ está a viver uma semana intensa de aprendizagem, colaboração e desenvolvimento de projetos durante o seu primeiro BootCamp, o \"Encontro de Saberes\", subordinado ao tema \"Eu Faço a Diferença\".\nAo longo desta semana, os juniores encontram-se organizados em grupos de trabalho responsáveis por diferentes desafios do projeto \"Natal de SeVER no Polo\". Enquanto uns registam evidências, organizam o portefólio e atualizam a documentação dos projetos, outros trabalham na validação de desenhos técnicos, na integração dos componentes da Chaminé Inteligente do Pai Natal e do sistema de motorização do Carrossel de Natal.\nParalelamente, outros grupos desenvolvem os cálculos técnicos necessários à validação dos projetos, como a Memória de Cálculo, e preparam os materiais gráficos, lançam a campanha de divulgação e organizam a animação do evento.\n✨ Está em desenvolvimento um projeto que pretende reforçar a identidade do Polo de Sever do Vouga e valorizar o sentimento de pertença à comunidade escolar.\nTrata-se de uma iniciativa construída pelos juniores, inspirada nas experiências, nos valores e no espírito que caracteriza o Polo. Por agora, fica apenas levantado um pouco do véu sobre este desafio criativo que está a mobilizar a equipa e que procurará deixar uma marca duradoura na história da nossa comunidade educativa.\n👀 Fiquem atentos... em breve revelaremos mais novidades!",
+                         "autor":  "",
+                         "data":  "2026-11-25T16:53:50Z",
+                         "fotos":  [
+                                       "fotos/4138178012798976_3023128305664.jpg",
+                                       "fotos/4138178012798976_3023128313856.jpg",
+                                       "fotos/4138178012798976_3023128322048.jpg",
+                                       "fotos/4138178012798976_3023128330240.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4136740871585792",
                          "titulo":  "1.º SkillLABS | Mostra de Aprendizagens",
