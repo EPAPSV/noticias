@@ -1,10 +1,58 @@
 {
-    "atualizado":  "2026-11-26T22:00:00.2693473Z",
+    "atualizado":  "2026-11-26T22:05:00.4971778Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4139922253864960",
+                         "titulo":  "4.º dia de SkillLABS no Pólo | Equipas 4EN, 4FA e 4EP",
+                         "texto":  "Os dias passam rápidos quando existe competência nas apresentações e valorizar “VIR PARA A ESCOLA.”\nOs juniores das Equipas souberam mostrar muito bem as suas evidências nas competências adquiridas.\n“Valores adquiridos para o futuro profissional que podem e devem ser mostrados quando está o comprometimento de todos.”",
+                         "autor":  "",
+                         "data":  "2026-11-26T21:46:35Z",
+                         "fotos":  [
+                                       "fotos/4139922253864960_3024576217088.jpg",
+                                       "fotos/4139922253864960_3024576282624.jpg",
+                                       "fotos/4139922253864960_3024576315392.jpg",
+                                       "fotos/4139922253864960_3024576380928.jpg",
+                                       "fotos/4139922253864960_3024576569344.jpg",
+                                       "fotos/4139922253864960_3024576602112.jpg",
+                                       "fotos/4139922253864960_3024577740800.jpg",
+                                       "fotos/4139922253864960_3024577814528.jpg",
+                                       "fotos/4139922253864960_3024577839104.jpg",
+                                       "fotos/4139922253864960_3024577880064.jpg",
+                                       "fotos/4139922253864960_3024577937408.jpg",
+                                       "fotos/4139922253864960_3024578027520.jpg",
+                                       "fotos/4139922253864960_3024578068480.jpg",
+                                       "fotos/4139922253864960_3024578101248.jpg",
+                                       "fotos/4139922253864960_3024578158592.jpg",
+                                       "fotos/4139922253864960_3024578191360.jpg",
+                                       "fotos/4139922253864960_3024579297280.jpg",
+                                       "fotos/4139922253864960_3024579338240.jpg",
+                                       "fotos/4139922253864960_3024579362816.jpg",
+                                       "fotos/4139922253864960_3024579403776.jpg",
+                                       "fotos/4139922253864960_3024579436544.jpg",
+                                       "fotos/4139922253864960_3024579543040.jpg",
+                                       "fotos/4139922253864960_3024579584000.jpg",
+                                       "fotos/4139922253864960_3024579706880.jpg",
+                                       "fotos/4139922253864960_3024579723264.jpg",
+                                       "fotos/4139922253864960_3024579764224.jpg",
+                                       "fotos/4139922253864960_3024579796992.jpg",
+                                       "fotos/4139922253864960_3024580255744.jpg",
+                                       "fotos/4139922253864960_3024580296704.jpg",
+                                       "fotos/4139922253864960_3024580362240.jpg",
+                                       "fotos/4139922253864960_3024580403200.jpg",
+                                       "fotos/4139922253864960_3024580435968.jpg",
+                                       "fotos/4139922253864960_3024580485120.jpg",
+                                       "fotos/4139922253864960_3024580526080.jpg",
+                                       "fotos/4139922253864960_3024580550656.jpg",
+                                       "fotos/4139922253864960_3024580599808.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4139467471175680",
                          "titulo":  "1.º BootCAMP – Eu faço a diferença | EQUIPA 4EN",
@@ -554,21 +602,6 @@
                                        "fotos/4119018822467584_3009630003200.jpg",
                                        "fotos/4119018822467584_3009630011392.jpg",
                                        "fotos/4119018822467584_3009630019584.jpg"
-                                   ],
-                         "fixa":  false,
-                         "inicio":  "",
-                         "fim":  ""
-                     },
-                     {
-                         "id":  "4119012561960960",
-                         "titulo":  "Apresentação dos Anteprojetos PAP",
-                         "texto":  "Os juniores do 3º ano dos CP do Pólo de Sever do Vouga da Escola Profissional de Aveiro apresentam os seus Planos de Anteprojetos PAP.\nA atividade consiste na apresentação oral do anteprojeto da Prova de Aptidão Profissional (PAP), durante a qual os juniores dão a conhecer a temática escolhida, os objetivos a alcançar, as atividades previstas, os recursos necessários e o cronograma de execução. Este momento permite validar a pertinência e a viabilidade do projeto, promovendo a reflexão crítica, a capacidade de planeamento e a comunicação eficaz. A apresentação constitui ainda uma oportunidade para recolher sugestões e orientações que contribuam para o aperfeiçoamento do projeto antes da sua implementação e desenvolvimento.",
-                         "autor":  "",
-                         "data":  "2026-11-12T11:34:40Z",
-                         "fotos":  [
-                                       "fotos/4119012561960960_3009655250944.jpg",
-                                       "fotos/4119012561960960_3009655259136.jpg",
-                                       "fotos/4119012561960960_3009655267328.jpg"
                                    ],
                          "fixa":  false,
                          "inicio":  "",
