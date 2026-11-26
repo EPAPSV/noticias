@@ -1,5 +1,5 @@
 {
-    "atualizado":  "2026-11-26T22:15:00.0391223Z",
+    "atualizado":  "2026-11-26T22:20:00.2212683Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
@@ -48,6 +48,19 @@
                                        "fotos/4139922253864960_3024580526080.jpg",
                                        "fotos/4139922253864960_3024580550656.jpg",
                                        "fotos/4139922253864960_3024580599808.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4139589652480000",
+                         "titulo":  "Dia Internacional Contra a Corrupção",
+                         "texto":  "O pSV irá comemorar o Dia Internacional Contra a Corrupção, que terá lugar no próximo dia 9 de dezembro, e que contará com a honrosa presença da Exma. Diretora Executiva da RedEscolas, Dra. Ângela Malheiro, cuja participação prestigia esta iniciativa e reforça a importância da promoção dos valores da integridade, da ética e da cidadania ativa junto dos jovens.\nNeste âmbito, as equipas 4EQ, 4EP e 4ER participarão numa sessão de sensibilização a decorrer no Creative Studio do Pólo de Sever do Vouga da EPA, entre as 10h30 e as 12h00.\nA atividade integrará diversas dinâmicas pedagógicas e culturais, nomeadamente a apresentação e exposição de cartazes temáticos, a declamação de poesia, a representação teatral pelos Juniores, assim como a realização de palavras cruzadas alusivas à temática da corrupção e da transparência.\nAtravés destas iniciativas, pretende-se sensibilizar os participantes para a importância da integridade, da transparência, da ética e da responsabilidade cívica, fomentando a reflexão sobre o papel de cada cidadão na prevenção e combate à corrupção.",
+                         "autor":  "",
+                         "data":  "2026-11-26T16:16:10Z",
+                         "fotos":  [
+                                       "fotos/4139589652480000_3024370671616.jpg"
                                    ],
                          "fixa":  false,
                          "inicio":  "",
@@ -580,28 +593,6 @@
                          "fotos":  [
                                        "fotos/4119709562658816_3010374328320.jpg",
                                        "fotos/4119709562658816_cartaz_sponsors.jpg"
-                                   ],
-                         "fixa":  false,
-                         "inicio":  "",
-                         "fim":  ""
-                     },
-                     {
-                         "id":  "4119018822467584",
-                         "titulo":  "Apresentação dos Anteprojetos PAP | Equipas do 3.º Ano | Pólo de Sever do Vouga",
-                         "texto":  "As Equipas do 3.º Ano do Pólo de Sever do Vouga estão a realizar a apresentação dos seus Anteprojetos de Prova de Aptidão Profissional (PAP).\nEsta etapa representa um momento importante no percurso formativo dos alunos, permitindo dar a conhecer as ideias, os objetivos e as propostas de trabalho que irão desenvolver no âmbito dos seus projetos finais de curso.\nA todos os juniores, desejamos muito sucesso nesta caminhadas!\n#psv #pap #3ºano",
-                         "autor":  "",
-                         "data":  "2026-11-12T11:40:53Z",
-                         "fotos":  [
-                                       "fotos/4119018822467584_3009629945856.jpg",
-                                       "fotos/4119018822467584_3009629954048.jpg",
-                                       "fotos/4119018822467584_3009629962240.jpg",
-                                       "fotos/4119018822467584_3009629970432.jpg",
-                                       "fotos/4119018822467584_3009629978624.jpg",
-                                       "fotos/4119018822467584_3009629986816.jpg",
-                                       "fotos/4119018822467584_3009629995008.jpg",
-                                       "fotos/4119018822467584_3009630003200.jpg",
-                                       "fotos/4119018822467584_3009630011392.jpg",
-                                       "fotos/4119018822467584_3009630019584.jpg"
                                    ],
                          "fixa":  false,
                          "inicio":  "",
