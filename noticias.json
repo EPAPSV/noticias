@@ -1,10 +1,66 @@
 {
-    "atualizado":  "2026-11-26T15:30:02.0824598Z",
+    "atualizado":  "2026-11-26T15:35:00.8330728Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4139467471175680",
+                         "titulo":  "1.º BootCAMP – Eu faço a diferença | EQUIPA 4EN",
+                         "texto":  "Durante o primeiro Bootcamp, a equipa 4EN demonstrou espírito de entreajuda e colaboração ao identificar um trenó que necessitava de reparação. Com empenho e criatividade, os elementos da equipa uniram esforços para consertar o trenó, contribuindo para que este pudesse voltar a ser utilizado em segurança.\nEsta ação evidenciou não só as suas competências técnicas, mas também valores como a solidariedade, a responsabilidade e o trabalho em equipa, fundamentais para o sucesso de qualquer projeto.",
+                         "autor":  "",
+                         "data":  "2026-11-26T14:14:48Z",
+                         "fotos":  [
+                                       "fotos/4139467471175680_3024226336768.jpg",
+                                       "fotos/4139467471175680_3024226484224.jpg",
+                                       "fotos/4139467471175680_3024226492416.jpg",
+                                       "fotos/4139467471175680_3024228851712.jpg",
+                                       "fotos/4139467471175680_3024231407616.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4139384986787840",
+                         "titulo":  "1.º BootCAMP – Eu faço a diferença | EQUIPA T3AU",
+                         "texto":  "Neste primeiro BootCamp, os Juvenis da Equipa T3AU estão a desenvolver uma \"Caixa para Telemóveis\" com o objectivo de dotar o Espaço de Trabalho TA da mesma.\nEste projecto é uma solução à actual dinâmica de ocupação do Espaço de Trabalho, uma vez que, em vários momentos é utilizada por duas equipas em simultâneo.\nA Equipa também irá construir duas portas para serem aplicadas nas caixas.",
+                         "autor":  "",
+                         "data":  "2026-11-26T12:52:51Z",
+                         "fotos":  [
+                                       "fotos/4139384986787840_3024142778368.jpg",
+                                       "fotos/4139384986787840_3024142811136.jpg",
+                                       "fotos/4139384986787840_3024142827520.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
+                     {
+                         "id":  "4139368260657152",
+                         "titulo":  "EPA, pSV",
+                         "texto":  "1.º BootCAMP – Eu faço a diferença - 4FB\nHoje aprendizes ! Amanhã profissionais ! Somos 4FB !\n🔝🔝🔝",
+                         "autor":  "",
+                         "data":  "2026-11-26T12:36:14Z",
+                         "fotos":  [
+                                       "fotos/4139368260657152_3024080109568.jpg",
+                                       "fotos/4139368260657152_3024105971712.jpg",
+                                       "fotos/4139368260657152_3024106127360.jpg",
+                                       "fotos/4139368260657152_3024107249664.jpg",
+                                       "fotos/4139368260657152_3024107266048.jpg",
+                                       "fotos/4139368260657152_3024107274240.jpg",
+                                       "fotos/4139368260657152_3024107282432.jpg",
+                                       "fotos/4139368260657152_3024107290624.jpg",
+                                       "fotos/4139368260657152_3024107298816.jpg",
+                                       "fotos/4139368260657152_3024107307008.jpg",
+                                       "fotos/4139368260657152_3024113377280.jpg",
+                                       "fotos/4139368260657152_3024114491392.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4139365722324992",
                          "titulo":  "1°SkillLabs da equipa 4FA",
@@ -513,63 +569,6 @@
                                        "fotos/4119012561960960_3009655250944.jpg",
                                        "fotos/4119012561960960_3009655259136.jpg",
                                        "fotos/4119012561960960_3009655267328.jpg"
-                                   ],
-                         "fixa":  false,
-                         "inicio":  "",
-                         "fim":  ""
-                     },
-                     {
-                         "id":  "4114930399043584",
-                         "titulo":  "Webinário - Integridade e Anticorrupção",
-                         "texto":  "No dia 9 de novembro, as equipas 4EQ, 4ER e 4EM participaram no webinário nacional \"Dia da Integridade e Anticorrupção\", uma iniciativa promovida pelo Mecanismo Nacional Anticorrupção (MENAC), integrada na programação do Mês Anticorrupção 2026.\nRealizada em formato online, entre as 10h00 e as 12h00, a sessão reuniu escolas de todo o país com o objetivo de sensibilizar os jovens para a importância da integridade, da transparência, da ética e da prevenção da corrupção, temas fundamentais para a construção de uma sociedade mais justa e responsável.",
-                         "autor":  "",
-                         "data":  "2026-11-09T12:00:00Z",
-                         "fotos":  [
-                                       "fotos/4114930399043584_3005803724800.jpg",
-                                       "fotos/4114930399043584_3005803732992.jpg",
-                                       "fotos/4114930399043584_3005803741184.jpg",
-                                       "fotos/4114930399043584_3005803749376.jpg",
-                                       "fotos/4114930399043584_3005803757568.jpg",
-                                       "fotos/4114930399043584_3005803765760.jpg",
-                                       "fotos/4114930399043584_3005803773952.jpg",
-                                       "fotos/4114930399043584_3005803782144.jpg"
-                                   ],
-                         "fixa":  false,
-                         "inicio":  "",
-                         "fim":  ""
-                     },
-                     {
-                         "id":  "4114893764878336",
-                         "titulo":  "Juniores do pSV participam em Atividade de Sensibilização da PREVEMERG",
-                         "texto":  "Os Juniores do Pólo participaram recentemente numa atividade promovida pela PREVEMERG, dedicada à sensibilização para a prevenção, segurança e resposta em emergências.\nDurante a atividade, tiveram a oportunidade de contactar com diversos conteúdos e demonstrações práticas sobre procedimentos de segurança, primeiros socorros e atuação em cenários de emergência, adquirindo conhecimentos importantes para o seu desenvolvimento pessoal e cívico.\nEsta experiência revelou-se bastante enriquecedora, permitindo reforçar competências essenciais para o dia a dia e promover valores cívicos.\nO Polo congratula todos os juniores pelo comportamento exemplar, interesse demonstrado e participação ativa ao longo da atividade, agradecendo igualmente à PREVEMERG pela oportunidade proporcionada e pelo seu contributo para a formação de jovens mais conscientes, preparados e interventivos na comunidade.\n(11) Facebook\u003chttps://www.facebook.com/profile.php?id=61575326544448\u003e",
-                         "autor":  "",
-                         "data":  "2026-11-09T12:00:00Z",
-                         "fotos":  [
-                                       "fotos/4114893764878336_3005753180160.jpg",
-                                       "fotos/4114893764878336_3005753188352.jpg",
-                                       "fotos/4114893764878336_3005753196544.jpg",
-                                       "fotos/4114893764878336_3005753204736.jpg",
-                                       "fotos/4114893764878336_3005753212928.jpg",
-                                       "fotos/4114893764878336_3005753221120.jpg",
-                                       "fotos/4114893764878336_3005753237504.jpg",
-                                       "fotos/4114893764878336_3005753245696.jpg",
-                                       "fotos/4114893764878336_3005753253888.jpg",
-                                       "fotos/4114893764878336_3005753270272.jpg",
-                                       "fotos/4114893764878336_3005753278464.jpg",
-                                       "fotos/4114893764878336_3005753294848.jpg"
-                                   ],
-                         "fixa":  false,
-                         "inicio":  "",
-                         "fim":  ""
-                     },
-                     {
-                         "id":  "4110944311672832",
-                         "titulo":  "FERRAMENTEIROS EM AÇÃO",
-                         "texto":  "Na Ferramentaria todos os dias são utilizados os conhecimentos para a melhora contínua. Os nossos FERRAMENTEIROS auxiliam e praticam todos os dias as suas novas competências .\nMelhoria contínua com o auxílio de todos\n#praticar #ferramentaria",
-                         "autor":  "",
-                         "data":  "2026-11-06T12:00:00Z",
-                         "fotos":  [
-                                       "fotos/4110944311672832_3004194439168.jpg"
                                    ],
                          "fixa":  false,
                          "inicio":  "",
