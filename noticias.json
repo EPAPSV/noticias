@@ -1,10 +1,33 @@
 {
-    "atualizado":  "2026-11-27T17:45:00.8581919Z",
+    "atualizado":  "2026-11-27T17:50:00.8337411Z",
     "config":  {
                    "segundos":  14,
                    "recarregarMinutos":  5
                },
     "noticias":  [
+                     {
+                         "id":  "4141131192803328",
+                         "titulo":  "1° BootCamp 4EX - Eu faço a diferença!",
+                         "texto":  "📣Realização de um Mural que espelhasse a empatia, o civismo, a positividade na Nossa Escola!\nMãos à obra! 🎨👏🎯✅️\n#4ex #cp_soldadura #fazeraditefença #empatia #respeito #civismo\n#psv_epa",
+                         "autor":  "",
+                         "data":  "2026-11-27T17:47:33Z",
+                         "fotos":  [
+                                       "fotos/4141131192803328_3025623818240.jpg",
+                                       "fotos/4141131192803328_3025623916544.jpg",
+                                       "fotos/4141131192803328_3025623957504.jpg",
+                                       "fotos/4141131192803328_3025624014848.jpg",
+                                       "fotos/4141131192803328_3025624088576.jpg",
+                                       "fotos/4141131192803328_3025624145920.jpg",
+                                       "fotos/4141131192803328_3025624203264.jpg",
+                                       "fotos/4141131192803328_3025624260608.jpg",
+                                       "fotos/4141131192803328_3025624301568.jpg",
+                                       "fotos/4141131192803328_3025624342528.jpg",
+                                       "fotos/4141131192803328_3025624571904.jpg"
+                                   ],
+                         "fixa":  false,
+                         "inicio":  "",
+                         "fim":  ""
+                     },
                      {
                          "id":  "4141011555762176",
                          "titulo":  "#equipa 4EP #aartedesoldar #oorgulhodebrilhar #1ºskilllabs",
@@ -609,22 +632,6 @@
                                        "fotos/4122262166544384_3011902947328.jpg",
                                        "fotos/4122262166544384_3011902963712.jpg",
                                        "fotos/4122262166544384_3011902996480.jpg"
-                                   ],
-                         "fixa":  false,
-                         "inicio":  "",
-                         "fim":  ""
-                     },
-                     {
-                         "id":  "4122247612899328",
-                         "titulo":  "E o treino continua, 🛠️🛠️🛠️🛠️⚡⚡⚡💡💡💡💡🔌🔌🔌",
-                         "texto":  "#4em_instalacoes_eletricas_psv_epa_2026_2027",
-                         "autor":  "",
-                         "data":  "2026-11-14T17:08:24Z",
-                         "fotos":  [
-                                       "fotos/4122247612899328_3011898351616.jpg",
-                                       "fotos/4122247612899328_3011898368000.jpg",
-                                       "fotos/4122247612899328_3011898384384.jpg",
-                                       "fotos/4122247612899328_3011898392576.jpg"
                                    ],
                          "fixa":  false,
                          "inicio":  "",
