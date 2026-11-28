@@ -213,7 +213,7 @@ body{font-family:Raleway,'Segoe UI',Arial,sans-serif;color:#fff}
           if (n.inicio && new Date(n.inicio).getTime() > agora) return false;
           if (n.fim && new Date(n.fim).getTime() < agora) return false;
           return true;
-        }).slice(0,15);
+        }).slice(0,30);
         // notícias cuja única foto deve aparecer repetida (duas vezes) no mosaico
         noticias = noticias.map(function(n){
           var f = n.fotos||[];
